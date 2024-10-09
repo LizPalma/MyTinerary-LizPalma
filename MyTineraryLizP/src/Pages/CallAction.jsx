@@ -1,5 +1,6 @@
 import React from 'react'
 import { useNavigate, useLocation,useParams } from 'react-router-dom'
+import Header from '../Components/Header';
 
 export default function CallAction() {
   const navigate = useNavigate()
@@ -15,9 +16,10 @@ export default function CallAction() {
 
   return (
     <>
-    <div className="flex flex-col justify-center p-3 ">
+    <Header></Header>
+    <div className="flex flex-col justify-center h-screen ">
 
-    <div className='flex justify-center p-3 '>
+    <div className='flex justify-center '>
     <p className='text-center font-bold text-blue-800 text-4xl'>Coming soon...</p>
     </div>
     <button

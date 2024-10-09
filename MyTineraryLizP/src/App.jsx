@@ -7,6 +7,10 @@ import NotFound from "./Pages/NotFound";
 import StandarLayout from "./Layaout/StandarLayout";
 import CallActionLayouts from "./Layaout/CallActionLayouts";
 
+
+
+
+
 const router = createBrowserRouter([
   {
     element: <StandarLayout> </StandarLayout>,
@@ -29,6 +33,7 @@ const router = createBrowserRouter([
 function App() {
   return (
     <>
+      
       <RouterProvider router={router}></RouterProvider>
     </>
   );
